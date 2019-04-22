@@ -1,0 +1,44 @@
+<view class="container">
+  <view class="text">
+    <view class="line_y"></view>
+    <text>幼苗龙虾</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgalist1}}" wx:for-item="image" class="index_anli_v" data-type="非标轴承">
+        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+        <text>幼苗龙虾</text>
+      </view>
+    </view>
+  </view>
+  <!------------------------------------------------------------------->
+  <view class="text">
+    <view class="line_y"></view>
+    <text>极品大虾</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgalist2}}" wx:for-item="image" class="index_anli_v" data-type="轨道滑轮轴承">
+        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+        <text>极品大虾</text>
+      </view>
+    </view>
+  </view>
+  <!------------------------------------------------------------------->
+  <view class="text">
+    <view class="line_y"></view>
+    <text>鲜嫩龙虾</text>
+  </view>
+  <view class="index_anli">
+    <view wx:for="{{imgalist3}}" wx:for-item="image" class="index_anli_v" data-type="角接触轴承">
+      <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+      <text>鲜嫩龙虾</text>
+    </view>
+  </view>
+  <!------------------------------------------------------------------->
+
+  <view class="container">
+    <text class="daodi">到底了</text>
+  </view>
+  <view class="jishuzc">技术支持：Nalson</view>
+</view>

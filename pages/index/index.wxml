@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<import src="../../template/item-template.wxml" />
+<view class="container">
+  <view class="section section_gap swiper_box">
+    <template is="index_index_scroll_tmpl" data="{{...index_index_scroll_tmpl}}" />
+  </view>
+  <view class="text">
+    <view class="line_y"></view>
+    <text>服务范围</text>
+  </view>
+  <view class="section index-nav">
+    <template is="index_index_navs_tmpl" data="{{...index_index_navs_tmpl}}" />
+  </view>
+
+  <view class="text">
+    <view class="line_y"></view>
+    <text>产品种类</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgainfo}}" wx:for-item="image" class="index_anli_v" data-type="万胜龙虾">
+        <image src="{{image.src}}" data-src="{{image.src}}" bindtap="previewImage"></image>
+        <text>{{image.name}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="text">
+    <view class="line_y"></view>
+    <text>联系我们</text>
+  </view>
+  <view class="contus">
+    <button type="default" bindtap="click">开始导航</button>
+    <button type="default" bindtap="calling">点击拨打客服电话</button>
+  </view>
+  <view class="jishuzc">技术支持：Nalson.xu</view>
+</view>

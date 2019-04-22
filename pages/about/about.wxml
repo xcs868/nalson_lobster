@@ -1,0 +1,18 @@
+<!--index.wxml-->
+
+<view class="gy1">
+    <image mode="widthFix" src="/image/banner/3.jpg"></image>
+</view>
+ <view class="text">
+        <view class="line_y"></view>
+        <text>关于万胜生态园</text>
+    </view> 
+     <view class="text2">
+        <text>万胜生态园从事龙虾一条龙服务</text>
+				<text>生态园路线非常成熟,欢迎加盟!从供应商到提货商都有固定渠道,如果你想挣钱还等什么呢??</text>
+    </view> 
+<view class="contus">
+    <button type="default" bindtap="click">开始导航</button>
+    <button type="default" bindtap="calling">点击拨打客服电话</button>
+  </view>
+  <view class="jishuzc">技术支持：Nalson</view>
